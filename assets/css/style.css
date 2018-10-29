@@ -1,0 +1,87 @@
+html {
+	box-sizing: border-box;
+}
+
+
+.gemimg {
+	width: 100px;
+    margin: 30px auto;
+}
+
+.instructions {
+	color: rgb(0, 0, 0);
+	text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(127, 255, 212, 0.5) ;
+    font-weight: 500;  
+    
+
+}
+
+.score {
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+    letter-spacing: 3px;
+    float: left;
+}
+
+
+h4 {
+	margin: 20px 0px 10px 0px;
+	letter-spacing: 3px;
+}
+
+h1 {
+	color: black;
+	margin: 35px 0px 35px 0px;
+    letter-spacing: 12px;
+    font-family: 'Monoton', cursive;
+    -webkit-animation: rotation 8s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg);
+		}
+		to {
+				-webkit-transform: rotateY(359deg);
+		}
+}
+
+
+
+
+.total, .scores, .instructions {
+    margin: auto;
+    background-color: rgba(127, 255, 212, 0.5) ;
+    width: 350px;
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    background-color: rgba(127, 255, 212, 0.5) ;
+}
+
+
+#losses {
+}
+
+.scores {
+    width: 350px;
+}
+
+#right {
+    float: right;
+    width: 49%;
+}
+
+#left {
+    float: left;
+    width: 49%
+}
